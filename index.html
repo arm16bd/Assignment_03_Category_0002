@@ -4,8 +4,158 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment_03_Category_0002</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!--DaisyUi cdn-->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!--sora font cdn-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <style>
+    .sora {
+    font-family: "Sora", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style:normal;
+    }
+    </style>
+    
+
 </head>
-<body>
+
+
+
+    <body class="sora">
+         <!--Header Start-->
+         <header class="container mx-auto">
+          <nav>
+            <div class="navbar bg-base-100">
+                <div class="navbar-start"> 
+                  <img src="./assets/img/logo-header.png">
+                </div>
+
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <li><a>Product</a></li>
+                      <li><a>Services</a></li>
+                      <li><a>Contact us</a></li>
+                  </ul>
+                </div>
+              
+                <div class="navbar-end hidden lg:flex">
+                    <div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <a class="btn btn-outline sm:hidden">Login</a>
+                        <a class="btn btn-success text-white ">Register</a>
+                    </div>
+                </div>
+                <div>
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M4 6h16M4 12h8m-8 6h16" />
+                      </svg>
+                    </div>
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                      <li><a>Product</a></li>
+                      <li><a>Services</a></li>
+                      <li><a>Contact us</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              
+        </nav>
+            <section class="my-16">
+              <div class="hero bg-gradient-to-r from-[#FFFFFF] to-[#EFEBE3] min-h-screen">
+                <div class="hero-content grid items-center text-center gap-4">
+                  <div>
+                    <h1 class="text-5xl font-semibold">
+                      Freshness<span class="text-green-500"> You Can <br>Count</span>
+                      On, Prices You’ll Love!
+                    </h1>
+                    <p class="my-6 text-gray-600">
+                      Shop your daily essentials at unbeatable prices. From fresh produce to <br> staples, we’ve got you covered every day!
+                    </p>
+                  </div>
+                  <img src="./assets/img/hero-vegetables.png" />
+                </div>
+              </div>
+              
+            </section>
+          </header>
+           
+        <main class="container mx-auto">
+              <section>
+                  <div class="my-10">
+                    <h1 class="text-3xl font-semibold text-green-600">Services</h1>
+                </div>
+                
+
+                <!-- card section-->
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 p-4">
+                  <!-- Card 1 -->
+                  <div class="card bg-base-300 shadow-xl">
+                    <figure class="px-5 pt-5">
+                      <img src="./assets/img/service.png" class="bg-white rounded-full p-3 shadow-md"/>
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title">24/7 Services</h2>
+                      <p class="text-gray-600">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                      </p>
+                    </div>
+                  </div>
+                
+                  <!-- Card 2 -->
+                  <div class="card bg-base-300 shadow-xl">
+                    <figure class="px-5 pt-5">
+                      <img src="./assets/img/delivery.png" class="bg-white rounded-full p-3 shadow-md" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title">Fast Delivery</h2>
+                      <p class="text-gray-600">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                      </p>
+                    </div>
+                  </div>
+                
+                  <!-- Card 3 -->
+                  <div class="card bg-base-300 shadow-xl">
+                    <figure class="px-5 pt-5">
+                      <img src="./assets/img/healthy.png" class="bg-white rounded-full p-3 shadow-md" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title text-lg font-semibold ">Healthy Products</h2>
+                      <p class="text-gray-600">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+                      </p>
+                    </div>
+                  </div>
+                </div>     
+        </main>
+
+
+
+
+
+
     
 </body>
 </html>
